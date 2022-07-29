@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q no 10</title>
+</head>
+<body>
+    Enter the length:<input id="length" type="number" placeholder="Enter the length of rectangle">
+    Enter the bredth:<input id="bredth" type="number" placeholder="Enter the bredth of rectangle">
+    <button type="button" onclick="func()">Submit</button>
+  
+    <h3 id="result"></h3>
+    <script>       
+         
+         
+
+        function func(){
+            let length=document.getElementById("length").value;
+            let bredth=document.getElementById("bredth").value;
+            calculate(length,bredth);
+        }
+        function calculate(length,bredth)
+        {
+            document.getElementById("result").innerHTML=("The area is"+length*bredth);
+        }
+         
+    </script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Inter :400");
+.rectangle-3{
+background-color: var(--vista-white) ;
+height: 181px;
+left: 839px;
+position: absolute;
+top: 241px;
+width: 267px;
+}
+.b{
+    left:783px;
+    letter-spacing:0;
+    position: absolute;
+    top:241px;
+    width:68px;
+}
+.rectangle-3{
+    background-color:pink;
+    height: 181px;
+    left: 839px;
+    position: absolute;
+    top: 0;
+    width: 267px;
+}
+.rectangle-1{
+    background-color:pink;
+    height: 181px;
+    left: 0px;
+    position: absolute;
+    top: 0;
+    width: 578px;
+}
+
+.rectangle-7{
+    background-color: red ;
+    height: 181px;
+    left: 839px;
+    position: absolute;
+    top: 179px;
+    width: 267px;
+}
+
+.rectangle-4{
+    background-color: blue ;
+    height: 744px;
+    left: 0px;
+    position: absolute;
+    top: 179px;
+    width: 578px;
+}
+.rectangle-8{
+    background-color:green ;
+    height: 563px;
+    left: 577px;
+    position: absolute;
+    top: 359px;
+    width: 529px;
+}
+
+.title {
+    left: 140px;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: 48px;
+    width: 311px;
+}
+    
+    .column-3 {
+    left: 817px;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: 48px;
+    width: 311px;
+    }
+    .a-numbered-list-able {
+    color: var(--black) ;
+    font-family: var(--font-family-inter) ;
+    font-size: var(--font-size-s) ;
+    font-weight: 400;
+    left: 85px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 241px;
+    width: 322px;
+    }
+    .c {
+        left: 939px;
+        letter-spacing: 0;
+        position: absolute;
+        top: 241px;
+        width: 66px;
+    }
+        .rectangle-1 {
+        background-color: pink ;
+        height: 181px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 578px;
+        }
+.a-unnumbered-list-po 
+{
+height: 278px;
+left: 694px;
+position: absolute;
+ top: 478px;
+width: 348px;
+}
+.column-2 {
+left: 554px;
+        letter-spacing: 0;
+        position: absolute;
+        text-align: center;
+        top: 48px;
+        width: 309px;
+        }
+ .rectangle-5 {
+background-color:pink ;
+height: 181px;
+left: 576px;
+position: absolute;
+top: 0;
+width: 265px;
+}
+.rectangle-6 {
+background-color: yellow;
+height: 181px;
+left: 576px;
+ position: absolute;
+top: 179px;
+width: 265px;
+}

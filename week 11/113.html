@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q no 3</title>
+</head>
+<body>
+    <p>Enter the Marks:</p>
+    <input name="marks" id="marks" placeholder="Enter your Marks" required>
+    <button type="button" onclick="validate()">Submit</button>
+    <p id="display"></p>
+    <script>
+        function display_result(m){
+        if(m<=100){
+            if(m>=80 && m<=100){
+                return "Distiction";
+
+            }
+            else if(m>=60 && m<80){
+                return "First Division";
+            }
+            
+            else if(m>=50 && m<60){
+                return "Second Division";
+
+            }
+            else if(m>=40 && m<50){
+                return "Third Divison";
+
+            }
+            else {
+                return "Sorry You Failed"
+            }
+        }else{
+            return "Marks should be less than 100"
+        }
+    }
+    let x=document.getElementById("marks").value;
+    
+    function validate(){
+        let x=document.getElementById("marks").value;
+        var s=display_result(x);
+        document.getElementById("display").innerHTML=s;
+
+    }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;background-color:green;}
+    
+h1 {font-size: 14px; font-variant: small-caps; color: #FF0000; background-color:#00ff00;
+    position: absolute;
+    top: Opx;
+    left: Opx;
+    z-index: 2;
+}
+
+p:first-letter { font-size: 200%; }
+
+.income {background-color: #CCCCCC;}
+
+.expenses {background-color: #FF0000;}
+
+.profit {background-color: #FFFF00;}
+
+#budgetsummary {background-color: #FFFFFF; border: dotted;
+    padding: 20px;
+    width: 500px;
+    position: absolute;
+    bottom: Opx;
+    top: 0px;
+    z-index: 1;
+}
+@media screen and (min-width:1px) and (max-width:530px)
+{
+    body{
+        background-color: aqua;
+    }
+}
